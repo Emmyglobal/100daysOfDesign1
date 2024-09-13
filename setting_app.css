@@ -170,5 +170,9 @@ input[type="range"]::-webkit-slider-thumb {
       display: block;
       margin: 5px 0;
     }
+      .hamburger{
+    display: none;
+    position: absolute;
+  }
   }
   
