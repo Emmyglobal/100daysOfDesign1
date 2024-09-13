@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>General Settings</title>
+    <link rel="stylesheet" href="setting_app.css">
+    <link rel="icon" href="favicon2.png">
+</head>
+<body>
+    <div class="container">
+        <button class="hamburger" id="hamburger">
+            &#9776; Menu
+        </button>
+        <div class="sidebar" id="top">
+            <ul>
+                <li><a href="#general">General</a></li>
+                <li><a href="#sound">Sound</a></li>
+                <li><a href="#notification">Notifications</a></li>
+                <li><a href="#screen">Screen Time</a></li>
+                <li><a href="#wifi">Wi-Fi</a></li>
+            </ul>
+        </div>
+        <div class="hero">
+            <div id="general">
+                <h2>General Settings</h2>
+                <div class="setting_option">
+                    <label for="theme">Theme</label>
+                    <select name="theme" id="theme">
+                        <option value="Light Mode">Dark Mode</option>
+                        <option value="Dark Mode">Light Mode</option>
+                    </select>
+                </div>
+                <div class="setting_option">
+                    <label for="language">Language</label>
+                    <select name="language" id="language">
+                        <option value="English">English</option>
+                        <option value="French">French</option>
+                        <option value="Chinese">Chinese</option>
+                        <option value="Spanish">Spanish</option>
+                    </select>
+                </div>
+                <div class="setting_option">
+                    <label for="date">Date Format</label>
+                    <select name="date" id="date">
+                        <option value="DD/MM/YYYY">DD/MM/YYYY</option>
+                        <option value="MM/DD/YYYY">MM/DD/YYYY</option>
+                    </select>
+                </div>
+            </div>
+            <div id="sound">
+                <h2>Sounds Settings</h2>
+                <div class="setting_option">
+                    <label for="volume">Volume Control</label>
+                    <input type="range" min="0" max="100" value="50">
+                </div>
+                <div class="setting_option">
+                    <label for="notification_sound">Notification Sounds:</label>
+                    <input type="checkbox" id="notification_sound" checked>
+                </div>
+                <div class="setting_option">
+                    <label for="ringtone">Ringtone Selection:</label>
+                    <select name="ringtone" id="ringtone">
+                        <option value="Default">Default</option>
+                        <option value="Beep">Beep</option>
+                        <option value="Chimes">Chimes</option>
+                        <option value="Pop">Pop</option>
+                    </select>
+                </div>
+            </div>
+            <div id="notification">
+                <h2>Notification Settings</h2>
+                <div class="setting_option">
+                    <label for="push">Push Notifications:</label>
+                    <input type="checkbox" id="push" checked>
+                </div>
+                <div class="setting_option">
+                    <label for="email-notifs">Email Notifications:</label>
+                    <input type="checkbox" id="email-notifs">
+                </div>
+                <div class="setting_option">
+                    <label for="sound_alerts">Sound Alerts:</label>
+                    <input type="checkbox" id="sound_alerts" checked>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="footer">
+        <div class="footer-content">
+          <p>&copy; 2024 Emmyglobal. All rights reserved.</p>
+          <div class="footer-links">
+            <a href="#">Contact Us</a> | 
+            <a href="#">Privacy Policy</a> | 
+            <a href="#">Terms of Service</a>
+          </div>
+          <div class="footer-social">
+            <a href="#"><img src="facebook-icon.png" alt="Facebook"></a>
+            <a href="#"><img src="twitter-icon.png" alt="Twitter"></a>
+            <a href="#"><img src="instagram-icon.png" alt="Instagram"></a>
+          </div>
+          <a href="#top" class="back-to-top">Back to Top</a>
+        </div>
+      </footer>
+</body>
+</html>
