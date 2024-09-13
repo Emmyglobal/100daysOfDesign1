@@ -150,6 +150,7 @@ input[type="range"]::-webkit-slider-thumb {
       padding: 20px;
     }
     .sidebar{
+        display: none;
         flex: 1;
         padding: 5px;
     }
