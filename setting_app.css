@@ -173,7 +173,6 @@ input[type="range"]::-webkit-slider-thumb {
     }
       .hamburger{
     display: block;
-    position: absolute;
   }
   }
   
